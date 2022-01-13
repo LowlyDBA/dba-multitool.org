@@ -16,7 +16,7 @@ There are 17 checks currently supported in 3 categories.
 - [Arbitrary VARCHAR length](#arbitrary-varchar-length)
 - [Unspecified VARCHAR length](#unspecified-varchar-length)
 - [Mad VARCHAR Max](#mad-varchar-max)
-- [NVARCHAR data type](#nvarchar-in-express) *(Express only)*
+- [NVARCHAR data type](#nvarchar-data-type) *(Express only)*
 - [FLOAT and REAL data types](#float-and-real-data-types)
 - [Deprecated data types](#deprecated-data-types)
 - [BIGINT as IDENTITY](#bigint-as-identity) *(Express only)*
