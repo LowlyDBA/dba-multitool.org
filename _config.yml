@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: DBA MultiTool
-description: Blah blah blah
-baseurl: "/dba-multitool.org-test" # the subpath of your site, e.g. /blog
-url: "https://lowlydba.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+description: "T-SQL scripts for the long haul: optimizing storage, on-the-fly documentation, and general administrative needs."
+baseurl: "" 
+url: "https://dba-multitool.org" 
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "docs/tests/"]
