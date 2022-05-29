@@ -124,8 +124,7 @@ are replaced to render markdown as plain text to avoid issues with formatting:
 | `Newline` | `<br/>` | HTML tag for line break |
 
 ## Output
-
-[View WorldWideImporters demo][sample]{: .btn .btn-outline }
+[View WorldWideImporters demo]({{ '/assets/WideWorldImporters.md' | relative_url }} "sp_doc sample"){: .btn .btn-outline }
 
 *Note: Slight changes may be made to this database to better demo script capabilities.*
 
