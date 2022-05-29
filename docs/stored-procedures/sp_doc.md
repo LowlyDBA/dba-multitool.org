@@ -124,7 +124,7 @@ are replaced to render markdown as plain text to avoid issues with formatting:
 | `Newline` | `<br/>` | HTML tag for line break |
 
 ## Output
-[View WorldWideImporters demo]({{ '/assets/WideWorldImporters.md' | relative_url }} "sp_doc sample"){: .btn .btn-outline }
+[View WorldWideImporters demo][sample]{: .btn .btn-outline }
 
 *Note: Slight changes may be made to this database to better demo script capabilities.*
 
@@ -144,7 +144,7 @@ until this is fixed.
 
 [tool]: https://dba-multitool.org
 [issue]: https://github.com/LowlyDBA/dba-multitool/issues
-[sample]: https://github.com/LowlyDBA/dba-multitool/blob/master/docs/assets/WideWorldImporters.md
+[sample]: https://github.com/lowlydba/dba-multitool.org/blob/459cb4929c2dca94a9e317fa5007b1470887f475/assets/WideWorldImporters.md
 [so]: https://stackoverflow.com/a/37284582/4406684
 [sqlcmd]: https://docs.microsoft.com/en-us/sql/tools/sqlcmd-utility?view=sql-server-ver15#command-line-options
 [UVBug]: https://feedback.azure.com/forums/908035-sql-server/suggestions/32899324-ssms-ignores-final-r-n-crlf-carriage-return
