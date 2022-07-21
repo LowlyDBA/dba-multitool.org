@@ -13,10 +13,20 @@
 </script>
 
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="https://www.dba-multitool.org"/>
+<meta property="og:url" content="{{ site.url }}"/>
 <meta property="og:type" content="website"/>
-<meta property="og:site_name" content="DBA MultiTool"/>
-<meta property="og:title" content="DBA MultiTool"/>
-<meta property="og:description" content="T-SQL scripts for the long haul: optimizing storage, on-the-fly documentation, and general administrative needs."/>
-<meta property="og:image:secure_url" content="//assets/images/dba-multitool-logo.png"/>
-<meta property="twitter:card" content="summary">
+<meta property="og:site_name" content="{{ site.title }}"/>
+<meta property="og:title" content="{{ page.title }} - {{ site.title }}"/>
+<meta property="og:description" content="{{ page.description }}"/>
+<meta property="og:image:secure_url" content="{{ 'assets/img/magnifying_glass.png' | relative_url }}"/>
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary">
+<meta property="twitter:domain" content="dba-multitool.org">
+<meta property="twitter:url" content="{{ site.url }}">
+<meta name="twitter:title" content="{{ page.title }} - {{ site.title }}">
+<meta name="twitter:description" content="{{ page.description }}">
+<meta name="twitter:image" content="{{ 'assets/img/magnifying_glass.png' | relative_url }}">
+
+
+        
