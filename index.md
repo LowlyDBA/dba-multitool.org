@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: DBA MultiTool
 nav_order: 1
 description: "T-SQL scripts for the long haul: optimizing storage, on-the-fly documentation, and general administrative needs."
 permalink: /
