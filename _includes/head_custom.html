@@ -1,0 +1,21 @@
+<script>
+    const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
+    jtd.addEvent(toggleDarkMode, 'click', function(){
+    if (jtd.getTheme() === 'dark') {
+        jtd.setTheme('light');
+        toggleDarkMode.textContent = 'Dark Mode';
+    } else {
+        jtd.setTheme('dark');
+        toggleDarkMode.textContent = 'Light Mode';
+    }
+    });
+</script>
+
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://www.dba-multitool.org">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="DBA MultiTool">
+<meta property="og:title" content="DBA MultiTool">
+<meta property="og:description" content="T-SQL scripts for the long haul: optimizing storage, on-the-fly documentation, and general administrative needs.">
+<meta property="og:image" content="assets/images/dba-multitool-logo.png">
