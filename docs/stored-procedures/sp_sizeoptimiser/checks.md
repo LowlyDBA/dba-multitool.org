@@ -65,7 +65,8 @@ While using `VARCHAR(MAX)`/`NVARCHAR(MAX)` can be tempting as a one size
 fits all solution, it is generally bad design practice unless absolutely
 required. It limits the column's ability to be used as an index key,
 makes online index rebuilding impossible, can lead to storing data pages
-out of row, performance will generally suffer, and more.
+out of row, and causes row size estimates to balloon. Generally, performance
+will be degraded.
 
 ### NVARCHAR data type
 
@@ -172,12 +173,17 @@ updated, or deleted from the table. This results in under utilized data pages,
 adding additional I/O and causing table size to balloon. Most tables should have
 a clustered index, unless they are used for staging data or temporary in nature.
 
+See also:
+
+* [SQL Server Docs: Heap Tables][heaps]
+
 [bigint]: https://docs.microsoft.com/en-us/sql/t-sql/data-types/int-bigint-smallint-and-tinyint-transact-sql?view=sql-server-2017
 [binary]: https://docs.microsoft.com/en-us/sql/t-sql/data-types/binary-and-varbinary-transact-sql?view=sql-server-2017
 [char]: https://docs.microsoft.com/en-us/sql/t-sql/data-types/char-and-varchar-transact-sql?view=sql-server-2017
 [dec]: https://docs.microsoft.com/en-us/sql/t-sql/data-types/decimal-and-numeric-transact-sql?view=sql-server-2017
 [tool]: http://dba-multitool.org
 [float]: https://docs.microsoft.com/en-us/sql/t-sql/data-types/float-and-real-transact-sql?view=sql-server-2017
+[heaps]:https://docs.microsoft.com/en-us/sql/relational-databases/indexes/heaps-tables-without-clustered-indexes?view=sql-server-ver16#when-not-to-use-a-heap
 [issue]: https://github.com/LowlyDBA/dba-multitool/issues
 [nchar]: https://docs.microsoft.com/en-us/sql/t-sql/data-types/nchar-and-nvarchar-transact-sql?view=sql-server-2017
 [sparse]: https://docs.microsoft.com/en-us/sql/relational-databases/tables/use-sparse-columns?view=sql-server-2017
