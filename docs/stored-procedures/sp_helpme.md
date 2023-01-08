@@ -24,6 +24,7 @@ Changes from the original include:
 - Including extended properties wherever possible
 - Including create, modify, and more metadata about objects
 - Referenced views are returned in two-part naming convention
+- Including include columns in index metadata
 
 ## Arguments
 
